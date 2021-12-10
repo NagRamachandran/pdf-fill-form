@@ -194,7 +194,9 @@ $ sudo apt-get install poppler-data
 
 First, enable the PowerTools repository:
 ```
-$ yum config-manager --set-enabled PowerTools
+# dnf install dnf-plugins-core
+$ dnf config-manager --set-enabled powertools
+or $ dnf config-manager --set-enabled PowerTools
 ```
 
 Install the dependencies :
